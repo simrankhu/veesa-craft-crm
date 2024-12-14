@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background: rgba(0, 0, 0, 0.562)url("veesa-craft-crm/assests/uploads/bg_form.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.form_container{
+    width: 40%;
+    text-align: center;
+    margin: 50px auto;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    padding: 50px 50px;
+    background: rgba(31, 30, 30, 0.589);
+    border-radius: 10px;
+    /* border: 1px solid rgb(75, 45, 110); */
+}
+.form_container form{
+    width: 90%;
+    margin: auto;
+}
+.form_container form input{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    margin-bottom: 30px;
+}
+.form_container form button{
+    background-image: linear-gradient( 109.6deg,  rgba(228,107,232,1) 11.2%, rgba(87,27,226,1) 96.7% );
+    padding: 15px;
+    border: none;
+    color: whitesmoke;
+}
+.form_container form button:hover{
+    background-image: linear-gradient( 109.6deg,  rgba(228, 202, 56, 0.733) 11.2%, rgba(87,27,226,1) 96.7% ) !important;
+    color: whitesmoke;
+}
+
+
+.logo{
+    /*display: flex;*/
+    margin: 10px 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.logo p{
+    color:rgb(117, 42, 151);
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top:13px;
+    
+}
+
